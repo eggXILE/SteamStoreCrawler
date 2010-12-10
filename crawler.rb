@@ -1,5 +1,3 @@
-require 'iconv'
-require 'kconv'
 require 'singleton'
 require 'logger'
 require 'open-uri'
