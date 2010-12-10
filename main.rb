@@ -1,5 +1,5 @@
 require File.join(File.dirname(File.expand_path(__FILE__)), 'crawler.rb')
 
-
-c = Crawler.instance
+log = open('log.txt', 'a')
+c = Crawler.new(log)
 c.start
